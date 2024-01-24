@@ -40,8 +40,8 @@ Uses Snakemake, python scripts, and UShER or MAPLE
 
 4. Tree visualization
    -
-  	- Upload the tree file (.pb, .nh, or .jsonl) to Taxonium to visualize the tree [taxonimu](https://taxonium.org/)
+  	- Upload the tree file (.pb, .nh, or .jsonl) to Taxonium to visualize the tree [taxonium](https://taxonium.org/)
    	- Can submit meta data to use filters
    	- Can use treenome viewer by running `usher_to_taxonium` with annotation file (Genome GBFF)
    		- `usher_to_taxonium -i PATH/tree.pb -o PATH/tree_chromosome_1.jsonl.gz --genbank PATH/genome_chromosom_1.gbff`
-   	 	- if multiple chromosome present, need to break the gbff into different chromosome and run command for each chromosome 
+   	 	- if multiple chromosome present, need to break the gbff into the different chromosome and run command for each chromosome 
