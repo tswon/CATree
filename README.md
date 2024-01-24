@@ -19,7 +19,7 @@ Uses Snakemake, python scripts, and UShER or MAPLE
 	- Because UShER doesn't take input with multiple chromosomes, the chromosome and position information need to be merged as one big chromosome
  	- '**merge_contigs_bed.py**' re-writes the **bed** files to have one big chromosome named 'NC_072814.1' with a length combining that of all seven chromosomes
   		- use '**run_mergebed.py**' to run multiple samples at once in the command line
-    - '**vcf_to_diff_script.py**' converts **vcf** to **diff**. The program was written by Lily Karim and was modified to make changes to **vcf** before the conversion
+    - '**vcf_to_diff_script.py**' converts **vcf** to **diff**. The program was written by [Lily Karim](https://github.com/lilymaryam/parsevcf) and was modified to make changes to **vcf** before the conversion
     	- This step is required for MAPLE and recommended for UShER to save storage space
     	- '**merge_contigs_vcf.py**' re-writes the **vcf** files to have one big chromosome named 'NC_072814.1' with a length combining that of all seven chromosomes
      	- use '**run_vcftodiff.py**' to run multiple samples at once in the command line
@@ -41,7 +41,7 @@ Uses Snakemake, python scripts, and UShER or MAPLE
 4. Tree visualization
    -
   	- Upload the tree file (.pb, .nh, or .jsonl) to Taxonium to visualize the tree [taxonium](https://taxonium.org/)
-   	- Can submit meta data to use filters
-   	- Can use treenome viewer by running `usher_to_taxonium` with annotation file (Genome GBFF)
+   	- Submit meta data to use filters
+   	- Run treenome viewer by using `usher_to_taxonium` command with annotation file (Genome GBFF)
    		- `usher_to_taxonium -i PATH/tree.pb -o PATH/tree_chromosome_1.jsonl.gz --genbank PATH/genome_chromosom_1.gbff`
    	 	- if multiple chromosome present, need to break the gbff into the different chromosome and run command for each chromosome 
