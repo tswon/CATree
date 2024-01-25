@@ -1,4 +1,5 @@
-# CATree - Candida auris phylogenetic tree builder
+# CATree - Candida Auris Tree
+## Phylogenetic tree building pipeline for _Candida auris_
 
 Rotation project in Dr. Russell Corbett-Detig's lab for 2023-2024 academic year
 
