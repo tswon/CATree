@@ -1,4 +1,4 @@
-# c_auris_phylo_tree
+# CATree - Candida auris phylogenetic tree builder
 
 Rotation project in Dr. Russell Corbett-Detig's lab for 2023-2024 academic year
 
@@ -13,6 +13,7 @@ Uses Snakemake, python scripts, and UShER or MAPLE
 	- Aligns C. auris sequence to the reference genome using [bwa-mem2](https://github.com/bwa-mem2/bwa-mem2)
 		- [Reference seq](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003013715.1/)
 	- Calls variants using GATK's [HaplotypeCaller](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller)
+ 	- Only accepts SRA files with 2 fasta files (01/24/2024) 
 
 2. Python scripts
 	- 	
