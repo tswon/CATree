@@ -1,4 +1,4 @@
-![catree_small](https://github.com/tswon/CATree/assets/122937211/52194200-717f-4721-9c36-063c7a766171)
+![catree_small_whitebg](https://github.com/tswon/CATree/assets/122937211/0eedb258-fb45-441d-9097-39fe3ddec3c8)
 
 # CATree - Candida Auris Tree
 ## Phylogenetic tree building pipeline for _Candida auris_
